@@ -26,6 +26,7 @@
 		BCCD0D58221205DF00F0AA7A /* ProjectEulerSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCD0D5B221205DF00F0AA7A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BCCD0D622212229200F0AA7A /* problem1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = problem1.h; sourceTree = "<group>"; };
+		BCCD0D642212290300F0AA7A /* problem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = problem2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		BCCD0D5A221205DF00F0AA7A /* ProjectEulerSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				BCCD0D642212290300F0AA7A /* problem2.h */,
 				BCCD0D5B221205DF00F0AA7A /* main.cpp */,
 				BCCD0D622212229200F0AA7A /* problem1.h */,
 			);
