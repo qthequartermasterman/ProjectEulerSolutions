@@ -7,10 +7,9 @@
 //
 
 #include <iostream>
-#include "problem2.h"
+#include "problem3.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << problem2() << std::endl;
+    std::cout << problem3() << std::endl;
     return 0;
 }

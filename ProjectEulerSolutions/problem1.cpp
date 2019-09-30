@@ -6,9 +6,6 @@
 //  Copyright © 2019 Andrew Sansom. All rights reserved.
 //
 
-#ifndef problem1_h
-#define problem1_h
-
 /* The problem asks for the sum of all numbers less than 1000 that are multiples of 3 or 5. */
 int problem1(){
     int runningSum = 0;
@@ -23,4 +20,7 @@ int problem1(){
     return runningSum;
 }
 
-#endif /* problem1_h */
+int main(int argc, const char * argv[]) {
+    std::cout << problem1() << std::endl;
+    return 0;
+}

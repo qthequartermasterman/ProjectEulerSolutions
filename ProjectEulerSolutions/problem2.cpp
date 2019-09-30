@@ -1,21 +1,13 @@
 //
-//  problem2.h
+//  problem2.cpp
 //  ProjectEulerSolutions
 //
 //  Created by Andrew Sansom on 2/11/19.
 //  Copyright © 2019 Andrew Sansom. All rights reserved.
 //
 
-#ifndef problem2_h
-#define problem2_h
+#include "fibonacciFunctions.h"
 
-#include <cmath>
-
-int getNextFibonacciNumber(int number){
-    // We can calculate the next Fibonacci number in the sequence by multiplying the previous term by the golden ratio and rounding to the nearest integer.
-    const float phi = (1+sqrt(5))/2;
-    return (int) floor(number * phi+0.5);
-}
 
 /* Problem asks for the sum of all even fibonacci numbers less than 4 million*/
 int problem2(){
@@ -30,5 +22,7 @@ int problem2(){
     return runningSum;
 }
 
-
-#endif /* problem2_h */
+int main(int argc, const char * argv[]) {
+    std::cout << problem2() << std::endl;
+    return 0;
+}
