@@ -20,7 +20,3 @@ int problem1(){
     return runningSum;
 }
 
-int main(int argc, const char * argv[]) {
-    std::cout << problem1() << std::endl;
-    return 0;
-}

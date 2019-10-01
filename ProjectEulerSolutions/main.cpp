@@ -6,10 +6,9 @@
 //  Copyright © 2019 Andrew Sansom. All rights reserved.
 //
 
-#include <iostream>
-#include "problem3.h"
+#include "problem4.h"
 
 int main(int argc, const char * argv[]) {
-    std::cout << problem3() << std::endl;
+    std::cout << problem4() << std::endl;
     return 0;
 }

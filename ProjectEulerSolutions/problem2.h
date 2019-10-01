@@ -21,8 +21,3 @@ int problem2(){
     }
     return runningSum;
 }
-
-int main(int argc, const char * argv[]) {
-    std::cout << problem2() << std::endl;
-    return 0;
-}
