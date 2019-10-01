@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC9414082342B47D00F52865 /* problem4.h in Sources */ = {isa = PBXBuildFile; fileRef = BC9414072342B47D00F52865 /* problem4.h */; };
 		BCCD0D5C221205DF00F0AA7A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCCD0D5B221205DF00F0AA7A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,10 +24,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC9414052342B2A200F52865 /* primeFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = primeFunctions.h; sourceTree = "<group>"; };
+		BC9414062342B39000F52865 /* fibonacciFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fibonacciFunctions.h; sourceTree = "<group>"; };
+		BC9414072342B47D00F52865 /* problem4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = problem4.h; sourceTree = "<group>"; };
+		BC94140A2343EA2A00F52865 /* problem5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = problem5.h; sourceTree = "<group>"; };
 		BCCD0D58221205DF00F0AA7A /* ProjectEulerSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCD0D5B221205DF00F0AA7A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BCCD0D622212229200F0AA7A /* problem1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = problem1.h; sourceTree = "<group>"; };
 		BCCD0D642212290300F0AA7A /* problem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = problem2.h; sourceTree = "<group>"; };
+		BCCD0D6522139E5500F0AA7A /* problem3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = problem3.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,14 @@
 		BCCD0D5A221205DF00F0AA7A /* ProjectEulerSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				BC94140A2343EA2A00F52865 /* problem5.h */,
 				BCCD0D642212290300F0AA7A /* problem2.h */,
+				BCCD0D6522139E5500F0AA7A /* problem3.h */,
 				BCCD0D5B221205DF00F0AA7A /* main.cpp */,
 				BCCD0D622212229200F0AA7A /* problem1.h */,
+				BC9414052342B2A200F52865 /* primeFunctions.h */,
+				BC9414062342B39000F52865 /* fibonacciFunctions.h */,
+				BC9414072342B47D00F52865 /* problem4.h */,
 			);
 			path = ProjectEulerSolutions;
 			sourceTree = "<group>";
@@ -92,7 +103,7 @@
 		BCCD0D50221205DF00F0AA7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Andrew Sansom";
 				TargetAttributes = {
 					BCCD0D57221205DF00F0AA7A = {
@@ -106,6 +117,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BCCD0D4F221205DF00F0AA7A;
 			productRefGroup = BCCD0D59221205DF00F0AA7A /* Products */;
@@ -122,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9414082342B47D00F52865 /* problem4.h in Sources */,
 				BCCD0D5C221205DF00F0AA7A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +256,7 @@
 		BCCD0D60221205DF00F0AA7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXJ67SGGGY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -252,6 +266,7 @@
 		BCCD0D61221205DF00F0AA7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXJ67SGGGY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
